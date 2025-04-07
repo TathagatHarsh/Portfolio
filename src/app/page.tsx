@@ -204,12 +204,12 @@ export default function Page() {
                 Contact
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Let's Connect
+                Let&apos;s Connect
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Whether you have a question, an idea, or just want to say hi —
-                I'm all ears. Fill out the form or reach out directly through
-                email or LinkedIn.
+                I&apos;m all ears. Fill out the form or reach out directly
+                through email or LinkedIn.
               </p>
             </div>
 
