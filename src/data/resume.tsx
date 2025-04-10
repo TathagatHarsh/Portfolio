@@ -169,7 +169,7 @@ export const DATA = {
     {
       title: "Guess The Number Game",
       href: "https://guesstheenumberrr.netlify.app/",
-      dates: "Mar 2025 - Mar 2025",
+      dates: "Mar 2025",
       active: true,
       description:
         "A fun and interactive “Guess the Number” game where players attempt to guess a randomly generated number within a given range. The game provides real-time feedback on whether the guess is too high or too low, making it engaging and challenging.",
@@ -192,7 +192,7 @@ export const DATA = {
     {
       title: "Bankist App",
       href: "https://bankist-app-coral.vercel.app/",
-      dates: "June 2023 - Present",
+      dates: "April 2025",
       active: true,
       description:
         "A modern and interactive banking application that allows users to manage their accounts seamlessly. Features include balance tracking, transaction history, money transfers, loan requests, and account closures. The application provides real-time updates and a sleek UI, making digital banking more intuitive and user-friendly.",
@@ -212,39 +212,29 @@ export const DATA = {
       image: "",
       video: "https://cdn.magicui.design/bento-grid.mp4",
     },
-    // {
-    //   title: "llm.report",
-    //   href: "https://llm.report",
-    //   dates: "April 2023 - September 2023",
-    //   active: true,
-    //   description:
-    //     "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //     "Stripe",
-    //     "Cloudflare Workers",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://llm.report",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/dillionverma/llm.report",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video: "https://cdn.llm.report/openai-demo.mp4",
-    // },
+    {
+      title: "Todo List",
+      href: "https://toodoolisttapp.netlify.app/",
+      dates: "April 2025",
+      active: true,
+      description:
+        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+      technologies: ["React.js", "JavaScript", "HTML5", "CSS3"],
+      links: [
+        {
+          type: "Website",
+          href: "https://toodoolisttapp.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/TathagatHarsh/todo-list-app",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://cdn.llm.report/openai-demo.mp4",
+    },
     // {
     //   title: "Automatic Chat",
     //   href: "https://automatic.chat",
