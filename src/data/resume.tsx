@@ -38,12 +38,7 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
-      Codeforces: {
-        name: "Codeforces",
-        url: "https://codeforces.com/profile/tathagatharsh",
-        icon: Icons.codeforces, // Make sure this icon exists or define it
-        navbar: true,
-      },
+
       LeetCode: {
         name: "LeetCode",
         url: "https://www.leetcode.com/tathagatharsh",
@@ -167,26 +162,26 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Guess The Number Game",
-      href: "https://guesstheenumberrr.netlify.app/",
-      dates: "Mar 2025",
+      title: "Exercise Tutorial App",
+      href: "https://exercise-tutorial.vercel.app/",
+      dates: "May 2025",
       active: true,
       description:
-        "A fun and interactive “Guess the Number” game where players attempt to guess a randomly generated number within a given range. The game provides real-time feedback on whether the guess is too high or too low, making it engaging and challenging.",
-      technologies: ["HTML5 ", "CSS3", "JavaScript"],
+        "A modern fitness and nutrition web application offering personalized workout programs and meal plans. Users can explore various fitness programs. The platform features interactive program filtering, search functionality and detailed programs. The application delivers a responsive, user-friendly experience across all devices.",
+      technologies: ["React.js", "JavaScript", "HTML5", "CSS3", "Tailwind CSS"],
       links: [
         {
           type: "Website",
-          href: "https://guesstheenumberrr.netlify.app/",
+          href: "https://exercise-tutorial.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/TathagatHarsh/GuessTheNumber",
+          href: "https://github.com/TathagatHarsh/exercise-tutorial",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/gtn.png",
+      image: "/workout.jpeg",
       video: "",
     },
     {
@@ -213,27 +208,27 @@ export const DATA = {
       video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
-      title: "Todo List",
-      href: "https://toodoolisttapp.netlify.app/",
-      dates: "April 2025",
+      title: "Guess The Number Game",
+      href: "https://guesstheenumberrr.netlify.app/",
+      dates: "Mar 2025",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: ["React.js", "JavaScript", "HTML5", "CSS3"],
+        "A fun and interactive 'Guess the Number' game where players attempt to guess a randomly generated number within a given range. The game provides real-time feedback on whether the guess is too high or too low, making it engaging and challenging.",
+      technologies: ["HTML5 ", "CSS3", "JavaScript"],
       links: [
         {
           type: "Website",
-          href: "https://toodoolisttapp.netlify.app/",
+          href: "https://guesstheenumberrr.netlify.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/TathagatHarsh/todo-list-app",
+          href: "https://github.com/TathagatHarsh/GuessTheNumber",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/gtn.png",
+      video: "",
     },
     // {
     //   title: "Automatic Chat",
@@ -264,6 +259,7 @@ export const DATA = {
     //   video:
     //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     // },
+    ,
   ],
   hackathons: [
     // {
